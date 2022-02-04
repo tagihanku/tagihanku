@@ -1,0 +1,66 @@
+{
+    "name": "tagihanku",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.1",
+        "@testing-library/react": "^12.1.2",
+        "@testing-library/user-event": "^13.5.0",
+        "autoprefixer": "^10.4.2",
+        "cross-env": "^7.0.3",
+        "postcss": "^8.4.5",
+        "prop-types": "^15.8.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^6.2.1",
+        "react-scripts": "5.0.0",
+        "sass": "^1.48.0",
+        "tailwindcss": "^3.0.13",
+        "typewriter-effect": "^2.18.2",
+        "web-vitals": "^2.1.3",
+        "workbox-background-sync": "^6.4.2",
+        "workbox-broadcast-update": "^6.4.2",
+        "workbox-cacheable-response": "^6.4.2",
+        "workbox-core": "^6.4.2",
+        "workbox-expiration": "^6.4.2",
+        "workbox-google-analytics": "^6.4.2",
+        "workbox-navigation-preload": "^6.4.2",
+        "workbox-precaching": "^6.4.2",
+        "workbox-range-requests": "^6.4.2",
+        "workbox-routing": "^6.4.2",
+        "workbox-strategies": "^6.4.2",
+        "workbox-streams": "^6.4.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.6.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-xo": "^0.39.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.28.0",
+        "prettier": "^2.5.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

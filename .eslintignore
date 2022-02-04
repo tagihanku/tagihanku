@@ -1,0 +1,3 @@
+build/
+/src/service-worker.js
+/src/serviceWorkerRegistration.js
