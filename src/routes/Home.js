@@ -1,5 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
+import scrollToTop from './../utils/scrollToTop'
 import Section from './../components/Section'
 import mockup from './../assets/img/mockup.webp'
 import { Link } from 'react-router-dom'
@@ -28,7 +29,7 @@ export default function Home() {
                         TagihanKu adalah aplikasi kelola tagihan otomatis yang akan memudahkan dalam mengelola usaha
                         anda.
                     </h6>
-                    <Link to="/pricing" className="action-button">
+                    <Link to="/pricing" className="action-button" onClick={scrollToTop}>
                         Daftar Sekarang
                         <i className="la la-arrow-right ml-2 text-xl leading-none"></i>
                     </Link>
