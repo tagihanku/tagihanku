@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import scrollToTop from './../utils/scrollToTop'
 import prices from './../prices'
 import Section from './../components/Section'
 import BoxPrice from './../components/BoxPrice'
@@ -37,7 +38,7 @@ export default function Pricing() {
                     </p>
                     <p>
                         Untuk informasi lebih lanjut, silahkan{' '}
-                        <Link to="/contact" className="link">
+                        <Link to="/contact" className="link" onClick={scrollToTop}>
                             hubungi kami
                         </Link>
                         .

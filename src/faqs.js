@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import scrollToTop from './utils/scrollToTop'
 
 export default [
     {
@@ -38,7 +39,7 @@ export default [
             <p>
                 Tidak, anda tidak akan mendapatkan source code jika berlangganan layanan managed kami. Akan tetapi
                 source code tersedia untuk dijual dengan beberapa ketentuan yang bisa anda baca{' '}
-                <Link to="/pricing" className="link">
+                <Link to="/pricing" className="link" onClick={scrollToTop}>
                     disini
                 </Link>
                 .
