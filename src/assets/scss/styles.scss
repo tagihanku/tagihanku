@@ -101,7 +101,7 @@
     .action-button {
         @apply flex items-center px-6 py-3 text-white bg-[length:300%_auto] bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 rounded-full transition-all duration-500;
 
-        &:hover {
+        &:hover:not(:disabled) {
             @apply bg-[right_center];
         }
     }
